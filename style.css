@@ -1,0 +1,219 @@
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Noto Sans HK', sans-serif;;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  z-index: 100;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+h2{ 
+  margin-top: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+img {
+  
+  width: 330px;
+}
+
+article {
+  padding-top: 30px;
+  padding-bottom: 35px;
+  
+  
+}
+
+article:not(:last-child) {
+  border-bottom: 10px dotted rgb(240, 240, 240);
+}
+
+.mix-image {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+iframe {
+  margin-top: 15px;
+  border-radius: 20px;
+  width: 330px;
+  height: 330px;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+ol, ul {
+  text-align: center;
+  list-style-position: inside;
+  display: inline-block;
+       margin: 0 auto;
+}
+
+ol li, ul li {
+  text-align: left;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 0;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about {
+  padding: 0 15%;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+details {
+  height: auto;
+  overflow: hidden;
+  transition: max-height ease-in-out;
+  transition-duration: 0.3s;
+}
+
+summary {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.album-desc {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.bandcamp-embed {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#meaning-crisis {
+  font-family: 'Alice', serif;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url('./assets/images/meaning\ crisis\ album\ art\ blured.jpg');
+  background-size: cover;
+  min-width:100vw;
+  min-height: 100vh;
+}
+
+#wrapper {
+  margin: 20px;
+}
+
+#meaning-crisis img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  
+}
+
+#meaning-crisis a {
+  color: #ca5d4f;
+  font-weight: bold;
+  display: block;
+  padding: 8px 0px;
+  background: #444a46;
+}
+
+#meaning-crisis a:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+#meaning-crisis a:first-of-type {
+  padding-top: 10px;
+
+}
+
+
+#meaning-crisis .desc {
+  background: white;
+    width: 330px;
+    padding: 10px 0px;
+    color: black;
+    font-size: 18px;
+}
+
+#meaning-crisis article {
+  width:min-content;
+  width: 330px;
+  padding-top:0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+#meaning-crisis h1 {
+}
+
+#background-image {
+  
+}
+
+#meaning-crisis #website {
+  display: inline;
+  background: white;
+
+}
+
+#meaning-crisis .footer {
+  padding: 15px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
